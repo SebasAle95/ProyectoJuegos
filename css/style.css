@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.fondo-oscuro {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 0%, #121212 50%, #121212 100%);
+}
+
+.fondo-blanco {
+    background-color: #FFFFFF;
+}
+
+
+
+
