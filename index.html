@@ -13,43 +13,43 @@
     <title>Proyecto Juegos</title>
 </head>
 <body class="fondo-oscuro">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black m-3">
+    <header class="fondo-celeste">
+        <nav class="navbar navbar-expand-lg  m-3">
             <div class="container">
                 
-                <a class="navbar-brand" href="./index.html">AppGamer</a>
+                <a class="navbar-brand text-white " href="./index.html">AppGamer</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Nuevo y Destacable</a>
+                    <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">Nuevo y Destacable</a>
                     </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown  ">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categoria
                     </a>
-                    <ul class="dropdown-menu bg-secondary">
-                        <li><a class="dropdown-item" href="#">Accion</a></li>
-                        <li><a class="dropdown-item" href="#">Aventura</a></li>
-                        <li><a class="dropdown-item" href="#">Estrategia</a></li>
-                        <li><a class="dropdown-item" href="#">Simulacion</a></li>
-                        <li><a class="dropdown-item" href="#">Rol</a></li>
+                    <ul class="dropdown-menu fondo-celeste">
+                        <li><a class="dropdown-item" href="./pages/detalles.html">Accion</a></li>
+                        <li><a class="dropdown-item" href="./pages/detalles.html">Aventura</a></li>
+                        <li><a class="dropdown-item" href="./pages/detalles.html">Estrategia</a></li>
+                        <li><a class="dropdown-item" href="./pages/detalles.html">Simulacion</a></li>
+                        <li><a class="dropdown-item" href="./pages/detalles.html">Rol</a></li>
                     </ul>
                     </li>
                     
                 </ul>
                 <form class="d-flex" role="search" id="formulario">
-                    <input class="form-control me-2 bg-black" type="search" placeholder="Buscar" aria-label="buscar" id="browserbar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="buscar" id="browserbar">
+                    <button class="btn btn-info fondo-celeste text-light" type="submit">Buscar</button>
                 </form>
                 </div>
                 <div class="dropdown mx-2">
-                    <button class="btn btn-secondary dropdown-toggle bg-black" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle fondo-celeste" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="bi bi-moon-stars-fill"></i>
                     </button>
                     <ul class="dropdown-menu bg-secondary">
@@ -73,9 +73,9 @@
     <main>
         
         <section class="container">
-            <h1 class="text-center pt-4 text-light">Lista De Juegos</h1>
+            <h1 class="text-center pt-5 mb-5 text-light">Lista De Juegos</h1>
             <article>
-            <hr />
+            <hr/>
             <div>
 
             <article class="row d-flex justify-content-lg-center  flex-lg-nowrap" id="listajuegos">
@@ -87,7 +87,7 @@
                     <h5 class="card-title text-light">Playerunknown  PUBG</h5>
                     <p class="card-text text-light-emphasis ">Aterriza en posiciones estratégicas, saquea armas y suministros, y sobrevive para que vuestro equipo sea el único en pie en los distintos y variados campos de batalla.
                         Forma equipo y participa en los campos de batalla para experimentar el Battle Royale original como solo existe en PUBG: BATTLEGROUNDS.</p>
-                    <a href="#" class="btn btn-success d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
+                    <a href="./pages/detalles.html" class="btn btn-info d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
                     </div>
                     </div>
                 </aside>
@@ -98,7 +98,7 @@
                     <div class="card-body">
                     <h5 class="card-title text-light">Grand Theft Auto V</h5>
                     <p class="card-text text-light-emphasis mt-lg-5 mt-sm-12  mt-md-4">La historia transcurre en la remodelada ciudad de Los Santos, donde Michael, Trevor y Franklin trabajan individualmente hasta que se cruzan sus vidas y empiezan a trabajar en equipo robando bancos o realizando trabajos para diversos pers</p>
-                    <a href="#" class="btn btn-success d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
+                    <a href="./pages/detalles.html" class="btn btn-info d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
                     </div>
                     </div>
                 </aside>
@@ -109,7 +109,7 @@
                         <div class="card-body">
                         <h5 class="card-title text-light">League of Legends</h5>
                         <p class="card-text text-light-emphasis ">League of Legends es un juego de estrategia por equipos en el que dos equipos conformados por cinco poderosos campeones se enfrentan para destruir la base del otro. Elige de entre más de 140 campeones para realizar jugadas épicas, asegurar asesinatos y destruir torretas mientras avanzas hacia la victoria.</p>
-                        <a href="#" class="btn btn-success d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
+                        <a href="./pages/detalles.html" class="btn btn-info d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
                         </div>
                         </div>
                 </aside>
@@ -120,7 +120,7 @@
                         <div class="card-body">
                         <h5 class="card-title text-light">Fifa 23</h5>
                         <p class="card-text text-light-emphasis ">Gracias a HyperMotion2, el juego femenino de FIFA 23 combina la captura de partidos 11 contra 11 con una tecnología de aprendizaje automático de última generación que permite crear nuevas y auténticas animaciones específicas para el fútbol femenino en FIFA 23. Experimenta la innovadora.</p>
-                        <a href="#" class="btn btn-success d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
+                        <a href="./pages/detalles.html" class="btn btn-info d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
                         </div>
                         </div>
                 </aside>
@@ -131,7 +131,7 @@
                         <div class="card-body">
                         <h5 class="card-title text-light">Dark Sould III</h5>
                         <p class="card-text text-light-emphasis ">Dark Souls es un juego de rol de acción de 2011 desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. Sucesor espiritual de Demon's Souls, es el primer juego de la saga Dark Souls. El juego tiene lugar en el reino de Lordran, donde los jugadores asumen el papel de un personaje.</p>
-                        <a href="#" class="btn btn-success d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
+                        <a href="./pages/detalles.html" class="btn btn-info d-grid gap-2 col-6 mx-auto">Ver Detalle</a>
                         </div>
                         </div>
                 </aside>
@@ -144,7 +144,7 @@
         
         
         </main>
-    <footer class="text-light text-center py-4">
+    <footer class="text-light text-center py-4 fondo-celeste">
         <p>&copy;Todos los derechos reservados</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

@@ -27,5 +27,16 @@ main{
     display: none;
 }
 
+.fondo-gris{
+    background-color: grey;
+    background-image: linear-gradient(180deg, #8e9107 0%, #121212 50%, #424d08 100%);
+}
+
+
+.fondo-celeste {
+    background-color: cadetblue;
+    background-image: linear-gradient(180deg, #7da8cc 0%, #085899 50%, #075391 100%);
+}
+
 
 
